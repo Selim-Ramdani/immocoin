@@ -1,0 +1,25 @@
+.Button {
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: transparent;
+  color: #222;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+
+  font: {
+    size: 16px;
+    weight: 500;
+    family: "Cereal-Md";
+  }
+  &:hover {
+    color: #111;
+  }
+
+  &:active {
+    transform: scale(0.9) !important;
+  }
+}
